@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import {
-   Sparkles, Globe2, ShieldCheck, MessageCircle, BadgeCheck,
+  ShoppingBag, Sparkles, Globe2, ShieldCheck, MessageCircle, BadgeCheck,
   Gem, Scissors, Home, Cookie, Plane, PackageCheck, Truck, Search,
   Star, Instagram, Phone, Mail, ChevronDown, ArrowRight, Heart, Menu, X,
   Upload, Send, MapPin, Clock, CheckCircle2,
@@ -129,13 +129,9 @@ function Header() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 sm:px-8">
         <a href="#home" className="flex items-center gap-2.5 group">
-          <div className="shrink-0">
-  <img
-    src="/favicon.png"
-    alt="Shopping Sakhi"
-    className="h-10 w-auto"
-  />
-</div>
+          <div className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-gradient-luxe shadow-soft">
+            <ShoppingBag className="h-5 w-5 text-white" />
+          </div>
           <div className="min-w-0">
             <div className="font-display text-lg font-semibold leading-none tracking-tight text-ink">Shopping Sakhi</div>
             <div className="text-[10px] uppercase tracking-[0.22em] text-muted-foreground">India · Worldwide</div>
