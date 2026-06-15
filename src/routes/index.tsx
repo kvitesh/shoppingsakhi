@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import {
-  ShoppingBag, Sparkles, Globe2, ShieldCheck, MessageCircle, BadgeCheck,
+  Sparkles, Globe2, ShieldCheck, MessageCircle, BadgeCheck,
   Gem, Scissors, Home, Cookie, Plane, PackageCheck, Truck, Search,
   Star, Instagram, Phone, Mail, ChevronDown, ArrowRight, Heart, Menu, X,
   Upload, Send, MapPin, Clock, CheckCircle2,
